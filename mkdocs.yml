@@ -1,0 +1,8 @@
+site_name: Test-sam
+
+nav:
+  - Home: index.md
+
+plugins:
+  - monorepo
+  - techdocs-core

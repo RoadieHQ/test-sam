@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-sam
+  title: Test-sam
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://RoadieHQ.github.io/test-sam/
+      title: Live website
+  annotations:
+    github.com/project-slug: RoadieHQ/test-sam
+spec:
+  type: website
+  owner: engineering
+  lifecycle: experimental
